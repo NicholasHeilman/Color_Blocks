@@ -1,0 +1,41 @@
+
+header{
+    height: 100px;
+    background-color: rgb(50, 40, 85);
+    padding: 20px;
+    color:White;
+    text-align: Right;
+
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+}
+
+#redBox{
+    background-color: red;
+    
+}
+
+#blueBox{
+    background-color: blue;
+  
+}
+
+#yellowBox{
+    background-color: yellow;
+  
+}
+
+#greenBox{
+    background-color: green;
+
+}
