@@ -26,7 +26,7 @@ html, body{
     font-family: "Lato", sans-serif;
     font-size: 18pt;
     border: 1px solid lightblue;
-    color: lightblue;
+    color: red;
     float: center;
   }
   
@@ -37,7 +37,7 @@ html, body{
     font-family: "Lato", sans-serif;
     font-size: 18pt;
     border: 1px solid lightblue;
-    color: lightblue;
+    color: blue;
     float: center;
   }
 
@@ -48,7 +48,7 @@ html, body{
       font-family: "Lato", sans-serif;
       font-size: 18pt;
       border: 1px solid lightblue;
-      color: lightblue;
+      color: yellow;
       float: center;
     }
 
@@ -59,11 +59,11 @@ html, body{
     font-family: "Lato", sans-serif;
     font-size: 18pt;
     border: 1px solid lightblue;
-    color: lightblue;
+    color: green;
     float: center;
   }
 #container {
-    max-width: 768px;
+    max-width: auto;
     display: flex
     flex-direction: row;
 
