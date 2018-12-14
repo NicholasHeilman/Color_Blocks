@@ -1,6 +1,6 @@
 console.log( 'js' );
 
-$(readyNow); // Shorthand for $(document).ready(readyNow);
+$(readyNow); 
 
 function readyNow(){
     console.log('Ready');
