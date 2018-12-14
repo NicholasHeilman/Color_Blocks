@@ -8,34 +8,113 @@ header{
 
 }
 
-html, body{
-  margin: 0;
-  padding: 0;
+ul{
+    color: black;
+    text-align: Left;
+    list-style-type: none;
 }
 
-div {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    float: left;
+html, body{
+  margin: 5px;
+  padding: 5px;
+}
+
+#redButton {
+    padding: 20px;
+    background: transparent;
+    text-shadow: 1px 1px 1px #202020;
+    font-family: "Lato", sans-serif;
+    font-size: 18pt;
+    border: 1px solid lightblue;
+    color: lightblue;
+    float: center;
+  }
+  
+#blueButton {
+    padding: 20px;
+    background: transparent;
+    text-shadow: 1px 1px 1px #202020;
+    font-family: "Lato", sans-serif;
+    font-size: 18pt;
+    border: 1px solid lightblue;
+    color: lightblue;
+    float: center;
+  }
+
+#yellowButton {
+      padding: 20px;
+      background: transparent;
+      text-shadow: 1px 1px 1px #202020;
+      font-family: "Lato", sans-serif;
+      font-size: 18pt;
+      border: 1px solid lightblue;
+      color: lightblue;
+      float: center;
+    }
+
+#greenButton {
+    padding: 20px;
+    background: transparent;
+    text-shadow: 1px 1px 1px #202020;
+    font-family: "Lato", sans-serif;
+    font-size: 18pt;
+    border: 1px solid lightblue;
+    color: lightblue;
+    float: center;
+  }
+#container {
+    max-width: 768px;
+    display: flex
+    flex-direction: row;
+
+
 }
 
 #redBox{
     background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
     
 }
 
 #blueBox{
     background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
   
 }
 
 #yellowBox{
     background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
   
 }
 
 #greenBox{
     background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
 
 }
+
+/* footer {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(50, 40, 85);
+    text-align: center;
+    width: 300px;
+} */
+
+
+
+    
+
