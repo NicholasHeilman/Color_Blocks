@@ -8,6 +8,7 @@ function readyNow(){
     blueButtonClick();
     yellowButtonClick();
     greenButtonClick();
+    orangeButtonClick();
 }
 
 //red button
@@ -55,3 +56,24 @@ function greenCount() {
     greenButton.innerHTML = "Green: " + greenClick;
     $(container).append('<div id="greenBox" class="green"> </div>');
 }
+
+// orange button
+function orangeButtonClick(){
+    $('#orangeButton').on('click', orangeCount);
+}
+// orange button counter  
+orangeClick = 0;
+function orangeCount() {
+    orangeClick += 1;
+    orangeButton.innerHTML = "Orange: " + orangeClick;
+    $(container).append('<div id="orangeBox" class="orange"> </div>');
+}
+
+
+//function to remove object
+// $( '#container' ).on('click', greenRemove());
+ 
+//  function greenRemove(){   
+//  $( this ).remove();
+//  };
+   

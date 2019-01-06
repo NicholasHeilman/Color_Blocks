@@ -5,7 +5,6 @@ header{
     padding: 20px;
     color:White;
     text-align: Right;
-
 }
 
 ul{
@@ -15,8 +14,8 @@ ul{
 }
 
 html, body{
-  margin: 5px;
-  padding: 5px;
+    margin: 5px;
+    padding: 5px;
 }
 
 #redButton {
@@ -28,7 +27,7 @@ html, body{
     border: 1px solid lightblue;
     color: red;
     float: center;
-  }
+}
   
 #blueButton {
     padding: 20px;
@@ -39,18 +38,18 @@ html, body{
     border: 1px solid lightblue;
     color: blue;
     float: center;
-  }
+}
 
 #yellowButton {
-      padding: 20px;
-      background: transparent;
-      text-shadow: 1px 1px 1px #202020;
-      font-family: "Lato", sans-serif;
-      font-size: 18pt;
-      border: 1px solid lightblue;
-      color: yellow;
-      float: center;
-    }
+    padding: 20px;
+    background: transparent;
+    text-shadow: 1px 1px 1px #202020;
+    font-family: "Lato", sans-serif;
+    font-size: 18pt;
+    border: 1px solid lightblue;
+    color: yellow;
+    float: center;
+}
 
 #greenButton {
     padding: 20px;
@@ -61,13 +60,21 @@ html, body{
     border: 1px solid lightblue;
     color: green;
     float: center;
-  }
+}
+#orangeButton {
+    padding: 20px;
+    background: transparent;
+    text-shadow: 1px 1px 1px #202020;
+    font-family: "Lato", sans-serif;
+    font-size: 18pt;
+    border: 1px solid lightblue;
+    color: orange;
+    float: center;
+}
 #container {
     max-width: auto;
     display: flex
     flex-direction: row;
-
-
 }
 
 #redBox{
@@ -76,7 +83,6 @@ html, body{
     height: 100px;
     margin: 10px;
     float: left;
-    
 }
 
 #blueBox{
@@ -84,8 +90,7 @@ html, body{
     width: 100px;
     height: 100px;
     margin: 10px;
-    float: left;
-  
+    float: left;  
 }
 
 #yellowBox{
@@ -105,14 +110,16 @@ html, body{
     float: left;
 
 }
-
-/* footer {
-    padding: 10px;
+#orangeBox{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
     margin: 10px;
-    color: rgb(50, 40, 85);
-    text-align: center;
-    width: 300px;
-} */
+    float: left;
+}
+
+
+
 
 
 
